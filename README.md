@@ -11,17 +11,17 @@ Setting up your Python installation
 
 This code was written for Python version 2.7 due to the dependency requirements.
 You can set your preferred Python flavour as version 2.7 on the IoA computers by 
-adding the following command to the `.profile' file in your home directory:
+adding the following command to the `.profile` file in your home directory:
 
     module load python/2.7 
 
 Some Python packages will be installed to your home directory, so in the same 
-`.profile' file you should add this line after the `module load python/2.7' line:
+`.profile` file you should add this line after the `module load python/2.7` line:
 
     export PYTHONPATH=$PYTHONPATH:/home/hurnm/.local/lib/python2.7/site-packages
 
 After these lines have been added, either open a new terminal or enter 
-`source ~/.profile' in your current terminal window.
+`source ~/.profile` in your current terminal window.
 
 
 Installing required Python packages
@@ -34,7 +34,7 @@ following terminal command:
 
 
 Getting an ADS key
-==================
+------------------
 
 The NASA Astrophysics Data System (ADS) has an Application Programmer Interface 
 (API) which allows us to run programmatic queries against their database. This 
@@ -72,8 +72,8 @@ month to search. For example:
 Will search for papers published by IoA researchers in the month of August, 2014.
 
 
-Setting up a monthly cron job to run the script automatically
--------------------------------------------------------------
+Set up a monthly Cron job to run the script automatically
+---------------------------------------------------------
 
 At a terminal, type:
 
