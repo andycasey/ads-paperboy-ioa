@@ -4,6 +4,7 @@ Installation
 Clone this repository using this terminal command:
 
     git clone git@github.com:andycasey/ads-paperboy-ioa.git paperboy
+    cd paperboy/
 
 
 Setting up your Python installation
